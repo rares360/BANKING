@@ -8,6 +8,7 @@ export const MainPage=()=>{
         <div className='Home'>
             <h2>VIRTUAL BANKING</h2>
             <h2><a href="/">GO TO HOME</a></h2>
+            <h2><a href="/">GO TO HOME</a></h2>
             <h3>MAIN PAGE</h3>
         
 
