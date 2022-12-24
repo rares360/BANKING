@@ -6,15 +6,20 @@ export const Register=()=>{
     return (
         <div className='Home'>
             <h2>VIRTUAL BANKING</h2>
-            <h2><a href="/">GO TO HOME</a></h2>
+            <h2><a href="/">HOME</a></h2>
             <h3>REGISTER</h3>
             <h4>USERNAME</h4>
-           <input type="text" placeholder="USERNAME"/>
+           <input type="text" placeholder="FIRST NAME"/>
            <br></br>
-           <h4>PASSWORD</h4>
+           <input type="text" placeholder="LAST NAME"/>
+           <br></br>
+           <input type="text" placeholder="EMAIL"/>
+           <br></br>
+           <input type="text" placeholder="PHONE"/>
+           <br></br>
            <input type="password" placeholder="PASSWORD"/>
-           <h4>REPEAT PASSWORD</h4>
-           <input type="password" placeholder="PASSWORD"/>
+           <br></br>
+           <input type="password" placeholder="REPEAT PASSWORD"/>
             <br></br>
             <br></br>
             <br></br>

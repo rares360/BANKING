@@ -1,16 +1,42 @@
 import React, { useState } from 'react';
 import {BrowserRouter as Router, Link} from 'react-router-dom';
+import {FormControl, Slider, TextField, Typography, Grid, Button, Autocomplete} from "@mui/material";
 import './Login.css'; 
 import './Animationstyle.css'; 
+import './Slider.css'; 
 
 export const MainPage=()=>{
+   
+
     return (
         <div className='Home'>
             <h2>VIRTUAL BANKING</h2>
-            <h2><a href="/">GO TO HOME</a></h2>
-            <h2><a href="/">GO TO HOME</a></h2>
-            <h3>MAIN PAGE</h3>
-        
+            <h2><a href="/">HOME</a></h2>
+            <form>
+                <label>
+                SUMA
+                <br></br>
+                    <input type="text" name="name" />
+                </label>
+                </form>
+                <br></br>
+                <form action="/action_page.php">
+                    <label for="cars">VALUTA</label>
+                    <br></br>
+                    <select name="cars" id="cars">
+                        <option value="volvo">RON</option>
+                        <option value="saab">USD</option>
+                        <option value="opel">EUR</option>
+                    </select>
+                    </form>
+                    <br></br>
+                    <label>ALEGE PERIOADA</label>
+                    <div class="slider">
+                    <input type="range" min="-100" max="0" value="0" class="range blue"/></div>
+
+                
+                    <br></br>
+                    <button className='button'>VEZI OFERTELE</button>
 
                 <div class="wrapper">
                 <div class="candles">

@@ -70,3 +70,6 @@ h4{
 .button:disabled {
   cursor: auto;
 }
+input{
+  text-align: center;
+}
